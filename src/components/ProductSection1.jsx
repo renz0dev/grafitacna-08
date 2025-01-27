@@ -12,12 +12,9 @@ const ProductSection1 = () => {
   const [error, setError] = useState(null); // Estado para manejar errores
 
   useEffect(() => {
-    // Obtener las variables de entorno de React
-    const token = import.meta.env.VITE_API_KEY; // Token de la API
-    const apiUrl = import.meta.env.VITE_API_URL; // URL del backend
-
+    const token = "5e58a170a0b599511b621cbe713a18540ea4710a";
     axios
-      .get(`${apiUrl}?category=1`, {
+      .get("http://127.0.0.1:8000/api/products/?category=1", {
         headers: { Authorization: `Token ${token}` },
       })
       .then((response) => {
@@ -84,7 +81,7 @@ const ProductSection1 = () => {
               <div className="absolute inset-0 bg-[#00B5D8] rounded-lg" />
               <NavLink to="/categorias/impresoras">
                 <img
-                  src="/impresora-rectangulo.jpg"
+                  src="/public/impresora-rectangulo.jpg"
                   alt="Lo nuevo en impresoras"
                   className="absolute inset-0 w-full h-full object-cover object-contain hover:scale-110 transition ease-in-out"
                 />
