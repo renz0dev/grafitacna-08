@@ -12,9 +12,12 @@ const ProductSection1 = () => {
   const [error, setError] = useState(null); // Estado para manejar errores
 
   useEffect(() => {
-    const token = "5e58a170a0b599511b621cbe713a18540ea4710a";
+    // Obtener las variables de entorno de React
+    const token = process.env.REACT_APP_API_KEY; // Token de la API
+    const apiUrl = process.env.REACT_APP_API_URL; // URL del backend
+
     axios
-      .get("http://127.0.0.1:8000/api/products/?category=1", {
+      .get(`${apiUrl}?category=1`, {
         headers: { Authorization: `Token ${token}` },
       })
       .then((response) => {
