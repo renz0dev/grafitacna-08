@@ -3,7 +3,7 @@ import React from "react";
 const BrandBar = () => {
   // Lista de rutas de las imágenes
   const logos = [
-    "/logo/intel-logo2.png",
+    "/logo/Intel-logo2.png",
     "/logo/amd-logo2.png",
     "/logo/nvidia-logo.png",
     "/logo/brother-svg.svg",
