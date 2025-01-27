@@ -13,8 +13,8 @@ const ProductSection1 = () => {
 
   useEffect(() => {
     // Obtener las variables de entorno de React
-    const token = process.env.REACT_APP_API_KEY; // Token de la API
-    const apiUrl = process.env.REACT_APP_API_URL; // URL del backend
+    const token = import.meta.env.VITE_API_KEY; // Token de la API
+    const apiUrl = import.meta.env.VITE_API_URL; // URL del backend
 
     axios
       .get(`${apiUrl}?category=1`, {
