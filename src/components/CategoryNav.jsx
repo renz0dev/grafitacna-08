@@ -110,7 +110,7 @@ const CategoryNav = () => {
             </div>
           </div>
 
-          <div className="flex items-center ml-4 px-4 font-[Itim]">
+          <div className="hidden md:flex items-center ml-4 px-4 font-[Itim]">
             <NavLink
               to="/"
               className="text-white h-full flex items-center hover:text-black transition duration-300"
@@ -118,7 +118,7 @@ const CategoryNav = () => {
               Inicio
             </NavLink>
           </div>
-          <div className="flex items-center ml-4 px-4 font-[Itim]">
+          <div className="hidden md:flex items-center ml-4 px-4 font-[Itim]">
             <NavLink
               to="/categorias/perifericos"
               className="text-white h-full flex items-center hover:text-black transition duration-300"
@@ -126,7 +126,7 @@ const CategoryNav = () => {
               Periféricos
             </NavLink>
           </div>
-          <div className="flex items-center ml-4 px-4 font-[Itim]">
+          <div className="hidden md:flex items-center ml-4 px-4 font-[Itim]">
             <NavLink
               to="/categorias/tintas"
               className="text-white h-full flex items-center hover:text-black transition duration-300"
@@ -134,7 +134,7 @@ const CategoryNav = () => {
               Tintas
             </NavLink>
           </div>
-          <div className="flex items-center ml-4 px-4 font-[Itim]">
+          <div className="hidden md:flex items-center ml-4 px-4 font-[Itim]">
             <NavLink
               to="/categorias/laptops"
               className="text-white h-full flex items-center hover:text-black transition duration-300"
@@ -142,6 +142,7 @@ const CategoryNav = () => {
               Laptops
             </NavLink>
           </div>
+
           <div className="flex items-center space-x-4 ml-auto">
             <a href="#mapa" className="flex items-center justify-center">
               <button className="flex items-center justify-center bg-white text-black w-36 h-10 rounded-full m-1 font-[Itim] hover:bg-neutral-200 duration-300">

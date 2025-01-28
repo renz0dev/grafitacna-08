@@ -75,7 +75,7 @@ const ProductSection1 = () => {
 
   return (
     <section className="w-full bg-[#f6f6f6]">
-      <div className="container mx-auto px-0 py-12">
+      <div className="container mx-auto px-0 py-12 overflow-hidden">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-8">
           <div className="lg:col-span-1">
             <div className="relative w-[264px] h-[414px] aspect-square rounded-lg overflow-hidden bg-black">
