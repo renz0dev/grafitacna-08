@@ -18,6 +18,13 @@
       const fetchProducto = async () => {
         const token = import.meta.env.VITE_API_KEY;
         const apiUrl = import.meta.env.VITE_API_URL;
+
+        if (!token || !apiUrl) {
+          setError("Error interno del servidor.");
+          setLoading(false);
+          return;
+        }
+        
         try {
           // Obtener el producto principal
           const response = await axios.get(`${apiUrl}${id}/`, {
