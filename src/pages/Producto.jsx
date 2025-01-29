@@ -16,10 +16,11 @@
 
     useEffect(() => {
       const fetchProducto = async () => {
-        const token = "5e58a170a0b599511b621cbe713a18540ea4710a";
+        const token = import.meta.env.VITE_API_KEY;
+        const apiUrl = import.meta.env.VITE_API_URL;
         try {
           // Obtener el producto principal
-          const response = await axios.get(`http://localhost:8000/api/products/${id}/`, {
+          const response = await axios.get(`${apiUrl}${id}/`, {
             headers: {
               Authorization: `Token ${token}`,
             },
@@ -34,7 +35,7 @@
 
             // Consulta con filtro de categoría
             const responseRelacionados = await axios.get(
-              `http://localhost:8000/api/products/?category=${categoriaId}`,
+              `${apiUrl}?category=${categoriaId}`,
               {
                 headers: { Authorization: `Token ${token}` },
               }
