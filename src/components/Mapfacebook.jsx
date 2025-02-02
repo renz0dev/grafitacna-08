@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from "react-router-dom"
 
 const MapFacebook = () => {
   return (
@@ -28,56 +29,68 @@ const MapFacebook = () => {
             <div
                 className="aspect-square relative rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
             >
+              <NavLink to="https://www.facebook.com/photo?fbid=548904824762878&set=a.126940046959360">
                 <img
                   src="/pub/pub1.jpg"
                   alt="Servicio1"
                   className="w-full h-full object-cover transition-transform duration-300 ease-in-out transform hover:scale-110"
                 />
+              </NavLink>
             </div>
             <div
                 className="aspect-square relative rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
             >
+              <NavLink to="https://www.facebook.com/photo.php?fbid=540748558911838&set=pb.100089300966888.-2207520000&type=3">
                 <img
                   src="/pub/pub2.jpg"
                   alt="Servicio2"
                   className="w-full h-full object-cover transition-transform duration-300 ease-in-out transform hover:scale-110"
                 />
+              </NavLink>
             </div>
             <div
                 className="aspect-square relative rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
             >
+              <NavLink to="https://www.facebook.com/photo.php?fbid=508213222165372&set=pb.100089300966888.-2207520000&type=3">
                 <img
                   src="/pub/pub3.jpg"
                   alt="Servicio3"
                   className="w-full h-full object-cover transition-transform duration-300 ease-in-out transform hover:scale-110"
                 />
+              </NavLink>
             </div>
             <div
                 className="aspect-square relative rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
             >
+              <NavLink to="https://www.facebook.com/photo.php?fbid=499941749659186&set=pb.100089300966888.-2207520000&type=3">
                 <img
                   src="/pub/pub4.jpg"
                   alt="Servicio4"
                   className="w-full h-full object-cover transition-transform duration-300 ease-in-out transform hover:scale-110"
                 />
+              </NavLink>
             </div>
             <div
                 className="aspect-square relative rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
             >
+              <NavLink to="https://www.facebook.com/photo.php?fbid=499182799735081&set=pb.100089300966888.-2207520000&type=3">
                 <img
                   src="/pub/pub5.jpg"
                   alt="Servicio5"
                   className="w-full h-full object-cover transition-transform duration-300 ease-in-out transform hover:scale-110"
                 />
+              </NavLink>
             </div>
             <div
                 className="aspect-square relative rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
             >
+              <NavLink to="https://www.facebook.com/photo.php?fbid=487537840899577&set=pb.100089300966888.-2207520000&type=3">
                 <img
                   src="/pub/pub6.jpg"
                   alt="Servicio6"
                   className="w-full h-full object-cover transition-transform duration-300 ease-in-out transform hover:scale-110"
                 />
+              </NavLink>
             </div>
           </div>
         </section>

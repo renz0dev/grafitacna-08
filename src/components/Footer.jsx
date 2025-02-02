@@ -44,10 +44,10 @@ const Footer = () => {
         <div className="col-span-1">
           <h2 className="text-lg font-semibold mb-4 text-center md:text-left">Redes Sociales</h2>
           <div className="flex justify-center md:justify-start space-x-4 mb-6">
-            <a href="#" aria-label="Facebook" className="hover:text-blue-500">
+            <a href="https://m.facebook.com/people/GrafiTacna-ILO/100089300966888/" aria-label="Facebook" className="hover:text-blue-500">
               <FaFacebook size={24} />
             </a>
-            <a href="#" aria-label="Facebook" className="hover:text-green-500">
+            <a href="https://wa.me/952606981" aria-label="Whatsapp" className="hover:text-green-500">
               <FaWhatsapp size={24} />
             </a>
           </div>
