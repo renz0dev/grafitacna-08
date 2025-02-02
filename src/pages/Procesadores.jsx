@@ -13,9 +13,10 @@ function Procesadores() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const token = "5e58a170a0b599511b621cbe713a18540ea4710a";
+    const token = import.meta.env.VITE_API_KEY;
+    const apiUrl = import.meta.env.VITE_API_URL;
     axios
-      .get("http://127.0.0.1:8000/api/products/?category=10", {
+      .get(`${apiUrl}?category=7`, {
         headers: { Authorization: `Token ${token}` },
       })
       .then((response) => {
