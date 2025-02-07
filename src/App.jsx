@@ -14,6 +14,7 @@ import Header from './components/Header'
 import Mapfacebook from "./components/Mapfacebook";
 import Footer from "./components/Footer";
 import CategoryNav from './components/CategoryNav'
+import LibroReclamaciones from './pages/LibroReclamaciones'
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
         <Route path='/categorias/tintas' element={<Tintas/>}/>
         <Route path='/product/:id' element={<Producto/>}/>
         <Route path='/garantia' element={<Garantia/>}/>
+        <Route path='/libro-reclamaciones' element={<LibroReclamaciones/>}/>
       </Routes>
       <Mapfacebook />
       <Footer />
