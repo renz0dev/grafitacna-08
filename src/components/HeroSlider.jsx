@@ -22,6 +22,7 @@ const HeroSlider = () => {
     { src: "/banner-general3.png", alt: "Banner 3" },
     { src: "/banner-general4.png", alt: "Banner 4" },
     { src: "/banner-general5.png", alt: "Banner 5" },
+    { src: "/banner-general7.png", alt: "Banner 6" },
   ];
 
   return (
