@@ -1,5 +1,6 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaTwitter, FaWhatsapp, FaYoutube } from "react-icons/fa";
+import { NavLink } from "react-router-dom"
 
 const Footer = () => {
   return (
@@ -38,6 +39,10 @@ const Footer = () => {
               <li>Tintas</li>
             </a>
           </ul>
+          <br></br>
+          <NavLink to="/libro-reclamaciones" className="w-full lg:w-auto flex justify-center lg:justify-start">
+          <img src="/libro-reclamaciones.jfif" alt="Logo GrafiTacna" className="h-[81px] w-[106px]" loading="lazy" />
+          </NavLink>
         </div>
 
         {/* Contact & Social Media */}
