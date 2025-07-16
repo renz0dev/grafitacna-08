@@ -21,6 +21,7 @@
     "card": "^2.5.4",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "core-js": "^3.44.0",
     "date-fns": "^4.1.0",
     "framer-motion": "^11.15.0",
     "google-map-react": "^2.2.1",

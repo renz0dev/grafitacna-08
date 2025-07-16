@@ -24,7 +24,7 @@ function Tintas() {
     const token = import.meta.env.VITE_API_KEY;
     const apiUrl = import.meta.env.VITE_API_URL;
     axios
-      .get(`${apiUrl}?category=3`, {
+      .get(`${apiUrl}?category=6`, {
         headers: { Authorization: `Token ${token}` },
       })
       .then((response) => {

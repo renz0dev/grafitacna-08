@@ -25,7 +25,7 @@ function Impresoras() {
     const token = import.meta.env.VITE_API_KEY;
     const apiUrl = import.meta.env.VITE_API_URL;
     axios
-      .get(`${apiUrl}?category=2`, {
+      .get(`${apiUrl}?category=1`, {
         headers: { Authorization: `Token ${token}` },
       })
       .then((response) => {

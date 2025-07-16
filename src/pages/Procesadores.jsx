@@ -16,7 +16,7 @@ function Procesadores() {
     const token = import.meta.env.VITE_API_KEY;
     const apiUrl = import.meta.env.VITE_API_URL;
     axios
-      .get(`${apiUrl}?category=7`, {
+      .get(`${apiUrl}?category=10`, {
         headers: { Authorization: `Token ${token}` },
       })
       .then((response) => {

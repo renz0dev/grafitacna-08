@@ -22,7 +22,7 @@ const ProductSection3 = () => {
     }
 
     axios
-      .get(`${apiUrl}?category=4`, {
+      .get(`${apiUrl}?category=7`, {
         headers: { Authorization: `Token ${token}` },
       })
       .then((response) => {

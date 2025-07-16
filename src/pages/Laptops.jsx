@@ -24,7 +24,7 @@ function Laptops() {
     const token = import.meta.env.VITE_API_KEY;
     const apiUrl = import.meta.env.VITE_API_URL;
     axios
-      .get(`${apiUrl}?category=4`, {
+      .get(`${apiUrl}?category=7`, {
         headers: { Authorization: `Token ${token}` },
       })
       .then((response) => {
