@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.same-height {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .hero-slider {
+    overflow: hidden;
+  }
+  
+  .hero-slider .slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-slider img {
+    width: 100%;
+    height: auto; /* Ajusta la altura para que sea dinámica */
+    object-fit: cover; /* Asegura que la imagen se recorte correctamente */
+  }
+  
+  body {
+    background-color: #f6f6f6; /* Cambia este color por el que desees */
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
